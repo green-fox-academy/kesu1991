@@ -1,0 +1,202 @@
+################Exercises
+
+######Hello_me
+print("Hello_me") 
+
+######humpty_dumpty
+print("Humpty Dumpty sat on a wall,")
+print("Humpty Dumpty had a great fall.")
+print("All the king's horses and all the king's men")
+print("Couldn't put Humpty together again.")
+
+######hello_others
+print("Hello, Ray! \nHello, Santi! \nHello, Liaoyuan")
+
+######introduce_yourself
+print("Ke Su \n27 \n1.71")
+
+######two_numbers
+a = 13
+b = 22
+print(a+b)
+print(b-a)
+print(a*b)
+print(22/13)
+print(22//13)
+print(22%13)
+
+######coding_hours
+print("Total hours spend with coding in a semester by an attendee is "+str(5*6*17)+" hours.")
+print("Precentage of the coding hours in the semester is "+str(round(((5*6*17/(56*17))*100),1))+"%.")
+
+######favorite_number
+favorite_number = 8
+print(f"My favorite number is: {favorite_number}")
+
+#####swap
+a = 526
+b = 123
+print(a)
+print(b)
+
+#####bmi
+massInkg = 81.2
+heightInM = 1.78
+bmi = round(81.2/(1.78**2),2)
+print(f"BMI is {bmi}.")
+
+#####define_basic_info
+name = "Ke Su"
+age = 27
+height = 1.71
+married = False
+print(f"{name}\n{age}\n{height}\n{married}")
+
+#####variable_mutation
+a = 3
+a += 10
+print(a)
+
+b = 100
+b -= 7
+print(b)
+
+c = 44
+c *= 2
+print(c)
+
+d = 125
+d /= 5
+print(d)
+
+e = 8
+print(e**3)
+
+f1 = 123
+f2 = 345
+T = True
+F = False
+if f1 > f2:
+    print(T)
+else:
+    print(F)
+    
+g1 = 350
+g2 = 200
+T = True
+F = False
+if g2*2 > g1:
+    print(T)
+else:
+    print(F)
+    
+h = 1357988018575474
+T = True
+F = False
+if h%11 == 0 :
+    print(T)
+    
+i1 = 10
+i2 = 3
+if i1 > i2**2:
+    print("i1 is higher than i2 squared")
+elif i1 < i2**3:
+    print("i1 is smaller than i2 cubed")      
+    
+j = 1521
+T = True
+if j%3 == 0:
+    print(f"j is dividible by 3: {T}")
+elif j%5 == 0:
+    print(f"j is dividible by 5: {T}")
+
+###### cuboid
+w = 1
+l = 2
+h = 3
+
+area = 2*w*l+2*w*h+2*l*h
+volumn = w*l*h
+print(f"Surface Area: {area}\nVolumn: {volumn}")
+
+###### seconds_in_a_day
+current_hours = 14
+current_minutes = 34
+current_seconds = 42
+
+total_sec = 24*60*60
+current_seconds = 14*60*60+34*60+42
+
+remaining = total_sec - current_seconds
+
+print(f"Remaining seconds is {remaining}s.")
+
+###### hello_user
+user = input()
+print(f"Hello, {user}!")
+
+###### mile_to_km_converter
+miles = int(input())
+km = miles * 1.60934
+print(km)
+
+###### animals_and_legs
+numChicken = int(input())
+numPig = int(input())
+
+legChicken = 2*numChicken
+legPig = 4*numPig
+totalLegs = legChicken+legPig
+
+print(f"Total number of legs are {totalLegs}.")
+
+###### average_of_input
+import statistics
+i = list(map(int, input("Enter five values: ").split()))
+total = sum(i)
+average = statistics.mean(i)
+print(f"sum: {total}, Average: {average}")
+
+###### odd_even
+i = int(input("Enter a number: "))
+if i%2 == 0:
+    print("Even")
+elif i%2 != 0:
+    print("Odd")
+	
+###### one_two_a_lot
+i = int(input("Enter a number: "))
+if i <= 0:
+    print("Not enough")
+elif i == 1:
+    print("One")
+elif i == 2:
+    print("Two")
+else:
+    print("A lot")
+
+###### print_bigger
+first = int(input("Enter first number: "))
+second = int(input("Enter second number: "))
+if first < second :
+    print(f"Second number {second} is bigger.")
+else:
+    print(f"first number {first} is bigger.")
+	
+###### party_indicator
+first = int(input("Enter number of girls: "))
+second = int(input("Enter number of boys: "))
+if first == second and first+second > 20:
+    print("The party is exellent!")
+elif first != second and first+second > 20:
+    print("Quite cool party!")
+elif first != 0 and first+second < 20:
+    print("Average party...")
+elif first == 0:
+    print("Sausage party")
+	
+###### conditional_variable_mutation
+
+	
+
+
