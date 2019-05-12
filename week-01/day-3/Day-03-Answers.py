@@ -86,11 +86,7 @@ print(unique([1, 11, 34, 11, 52, 61, 1, 34]))
 
 ###### Anagram
 def is_anagram(input1, input2): 
-    boolean_result = True
-    if(sorted(input1)== sorted(input2)): 
-        print(boolean_result)  
-    else: 
-        print(not(boolean_result))
+	print(sorted(input1) == sorted(input2))
 
 is_anagram("dog","god")
 
