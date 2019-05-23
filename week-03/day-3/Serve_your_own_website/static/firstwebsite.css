@@ -1,0 +1,50 @@
+/* firstwebsite.css */
+div.top{	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	background-color: rgb(59, 56, 56);
+	text-align: right;  
+	height: 50px;
+	padding-top: 20px;   	
+}
+
+div.bottom{
+	background-image: url("/static/topography.png");
+	background-size: 1300px;
+	background-position:center;
+	background-repeat: no-repeat; 
+	height: 700px;
+}
+
+h1.tony{
+	font-size:55px;
+	padding-left: 30px;
+}
+
+h2.software{
+	padding-top: 10px;
+	font-size:40px;
+	padding-left: 30px;
+}
+
+p.para{
+	padding-left: 30px;
+	font-size:20px;
+	padding-right: 30px;
+}
+
+h2.wiki{
+	padding-top: 50px;
+	font-size:40px;
+}
+
+h3.set{
+    font-size:35px;
+}
+
+p.end{
+	padding-left: 30px;
+	font-size:20px;
+	padding-right: 30px;
+}
