@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<body>
+    {% for dict_item in greet %}
+        <p>{{dict_item["content"]}}</p>
+        <p> 
+            see by          
+            {% for i in dict_item["seen"] %}
+                 {{i}}
+            {% endfor %}
+        </p>
+    {% endfor %}
+</body>
+</html>
+

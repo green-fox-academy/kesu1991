@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<body>
+<table>
+    <tr>
+        <th>#</th>
+        <th>Product</th>
+        <th>Price</th>
+    </tr>
+
+    {% for i,j in greet %}
+        <tr>
+            <td>
+                
+            </td>
+            <td>    
+                {{i}}
+            </td>
+            <td>
+                {{ j | round(2) }}
+            </td>
+        </tr>
+    {% endfor %} 
+</table>
+</body>
+</html>
