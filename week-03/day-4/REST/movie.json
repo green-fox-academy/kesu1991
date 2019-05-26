@@ -1,0 +1,41 @@
+{
+    "movies":[
+    {
+        "id": "1", 
+        "title": "The Legend of 1900", 
+        "year": "2001", 
+        "genre": "music",
+        "description": "On New Year's Day 1900, Danny (Bill Nunn), a crew member on an ocean liner, finds a deserted infant and decides to adopt him, nicknaming him '1900' As an adult, the eccentric 1900 (Tim Roth) grows into a remarkable musician aboard the boat. Rumors of his brilliant piano playing eventually reach the shore, and his pal Max (Pruitt Taylor Vince) believes that success surely awaits 1900 on land. The only problem, however, is that the enigmatic pianist is loath to embrace life away from the ship."
+}, 
+
+ {
+     "id": "2", 
+     "title": "Avengers: Endgame", 
+     "year": "2019",
+     "genre": "action",
+     "description": "Adrift in space with no food or water, Tony Stark sends a message to Pepper Potts as his oxygen supply starts to dwindle. Meanwhile, the remaining Avengers -- Thor, Black Widow, Captain America and Bruce Banner -- must figure out a way to bring back their vanquished allies for an epic showdown with Thanos -- the evil demigod who decimated the planet and the universe."
+},
+
+{
+    "id": "3", 
+    "title": "Forrest Gump", 
+    "year": "1994",
+    "genre": "comedy",
+    "description": "Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright)."
+},
+
+{
+    "id": "4", 
+    "title": "The Post", 
+    "year": "2017",
+    "genre": "history",
+    "description": "Katharine Graham is the first female publisher of a major American newspaper -- The Washington Post. With help from editor Ben Bradlee, Graham races to catch up with The New York Times to expose a massive cover-up of government secrets that spans three decades and four U.S. presidents. Together, they must overcome their differences as they risk their careers -- and very freedom -- to help bring long-buried truths to light."
+},
+
+{
+    "id": "5", 
+    "title": "The Terminal", 
+    "year": "2004",
+    "genre": "Comedy",
+    "description": "When Viktor Navorski (Tom Hanks), an Eastern European tourist, arrives at JFK in New York, war breaks out in his country and he finds himself caught up in international politics. Because of the war, the Department of Homeland Security won't let him enter or exit the United States. He's trapped at JFK -- indefinitely. While living at the airport, Viktor falls for a flight attendant (Catherine Zeta-Jones). She may have feelings for him too. But what good is love if Viktor can't leave the terminal?"
+}]}
