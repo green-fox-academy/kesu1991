@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<body>
+<table>
+    <tr>
+        <th>User</th>
+        <th>Emojis</th>
+    </tr>
+
+    {% for i in greet %}
+        <tr>
+            <td>    
+                {{i[0]}}
+            </td>
+            <td>
+                {{i[1]}}
+            </td>
+        </tr>
+    {% endfor %} 
+</table>
+</body>
+</html>

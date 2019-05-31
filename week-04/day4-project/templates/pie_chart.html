@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>CSS Tables</title>
+
+<link href="styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<style type="text/css">
+    caption {
+        padding: 0 0 5px 0;
+        width: 700px;  
+        font: italic 20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    body {
+        font: italic 20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+        color: #4f6b72;
+        text-align: center;
+        background:#E6EAE9;
+    }
+
+    .loading {
+        margin: 100px auto;
+        width: 8em;
+        height: 8em;
+        position: relative;
+    }
+ 
+    .loading .progress {
+        position: absolute;
+        width: 6em;
+        height: 6em;
+        background-color: #E6EAE9;
+        border-radius: 50%;
+        left: 1em;
+        top: 1em;
+        line-height: 6em;
+        text-align: center;
+    }
+ 
+    .left,
+    .right {
+        width: 4em;
+        height: 8em;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        background-color: red
+    }
+    
+    .left {
+        border-radius: 8em 0 0 8em;
+    }
+    
+    .right {
+        border-radius: 0 8em 8em 0;
+    }
+    
+    .left:after,
+    .right:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 4em;
+        height: 8em;
+        background-color: white;
+        border-radius: 8em 0 0 8em;
+        background-color: #999999;
+    }
+    
+    .right:after {
+        content: "";
+        position: absolute;
+        display: block;
+        border-radius: 0 8em 8em 0;
+    }
+    .left:after {
+        transform-origin: right center;
+    }
+    
+    .right:after {
+        transform-origin: left center;
+        transform: rotateZ(120deg);
+    }
+
+</style>
+
+<body>
+    <caption> What is the percantage of the users have never written comments? </caption>
+    <div class="loading">
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="progress">35%</div>
+    </div>
+</body>
+
+</html>
