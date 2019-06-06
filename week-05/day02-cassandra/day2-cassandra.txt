@@ -1,0 +1,10 @@
+cqlsh> DESCRIBE keyspaces;
+system_traces  system_schema  system_auth  system  system_distributed
+
+
+
+source 'load-timeseries.cql';
+
+COPY raw_weather_data (wsid, year, month, day, hour, temperature, dewpoint, pressure, wind_direction, wind_speed, sky_condition, one_hour_precip, six_hour_precip)
+FROM 'C:\Users\Ke_Su\greenfox\kesu1991\week-05\day02-cassandra\2014.csv';
+
