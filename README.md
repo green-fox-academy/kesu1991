@@ -8,4 +8,4 @@ UserID: kesu1991
 * patchwork > https://github.com/kesu1991/patchwork
 
  - General tree 
-    <img src="../topography.png" style="width:900px;height:600px;">
+    ![alt text](kesu1991/week-03/day-3/Serve_your_own_website/static/topography.png)
