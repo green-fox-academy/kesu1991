@@ -6,3 +6,6 @@ UserID: kesu1991
 * git-lesson-repository > https://github.com/kesu1991/git-lesson-repository
 * hello-world > https://github.com/kesu1991/hello-world
 * patchwork > https://github.com/kesu1991/patchwork
+
+ - General tree 
+    <img src="kesu1991/week-03/day-3/Serve_your_own_website/static/topography.png" style="width:900px;height:600px;">
